@@ -1,0 +1,27 @@
+ total time = 21.230 seconds 
+id   (loop ms)  seconds     %        calledcount   name 
+=========================================================
+(00031)      inf    0.001 (  0.005 % ,    643) ZSoundEngine::Run 
+(00033)      inf    0.001 (  0.005 % ,    643) ZSoundEngine::Run : Update 
+(00099)      inf    0.003 (  0.014 % ,      5) MDrawContext::TextMultiLine 
+(00195)      inf    1.953 (  9.199 % , 740887) RBspObject::Pick 
+(00198)      inf    3.167 ( 14.918 % , 294590) RMesh::RenderSub 
+(00199)      inf    0.087 (  0.410 % , 294590) RMesh::RenderSub::State b 
+(00202)      inf    0.617 (  2.906 % , 294590) RMesh::RenderSub::RenderFrame 
+(00207)      inf    0.056 (  0.264 % , 724847) RMesh::CalcVertexBuffer 
+(00304)      inf    0.011 (  0.052 % ,  40562) RMesh::SetAnimation2Parts 
+(00305)      inf    0.001 (  0.005 % , 121291) RMesh::SetAnimation1Parts 
+(00306)      inf    0.001 (  0.005 % ,    970) RMesh::FindMeshId 
+(00402)      inf    0.436 (  2.054 % , 828918) RMeshNode::Render State b 
+(00403)      inf 4270280.000 ( 20114366.000 % ,      0)  
+(00411)      inf    0.157 (  0.740 % , 828918) RMeshNode::Render State e 
+(00500)      inf    2.425 ( 11.423 % , 294590) RMesh::RenderSub::Loop 
+(00501)      inf    2.203 ( 10.377 % , 1060911) RMesh::RenderNode 
+(05006)      inf   21.008 ( 98.954 % ,  67273) RMain::Run 
+(05007)      inf    1.063 (  5.007 % ,  67273) RMain::RFlip 
+(05009)      inf    0.779 (  3.669 % , 336115) RMesh::RenderNodeVS 
+(05010)      inf    0.236 (  1.112 % , 336115) RMesh::RenderNodeVS_SetVertexShaderConstant 
+(05011)      inf    0.011 (  0.052 % , 336115) RMesh::RenderNodeVS_SetCharacterMtrl_ON 
+(05012)      inf    0.100 (  0.471 % , 336115) RMesh::SetCharacterMtrl_ON 
+(05013)      inf    0.163 (  0.768 % , 336115) RMesh::RenderNodeVS_Update 
+(05014)      inf    0.163 (  0.768 % , 336115) RMesh::RenderNodeVS_DrawPrimitive 
